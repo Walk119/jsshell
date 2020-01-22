@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jsshell" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jsshell" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DXP_UNIX" />
+				</Compiler>
+				<Linker>
+					<Add library="../jsapi/lib/libjs.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jsshell" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../jsapi/include/js.msg" />
+		<Unit filename="../jsapi/include/jsapi.h" />
+		<Unit filename="../jsapi/include/jsarena.h" />
+		<Unit filename="../jsapi/include/jsarray.h" />
+		<Unit filename="../jsapi/include/jsatom.h" />
+		<Unit filename="../jsapi/include/jsbit.h" />
+		<Unit filename="../jsapi/include/jsbool.h" />
+		<Unit filename="../jsapi/include/jsclist.h" />
+		<Unit filename="../jsapi/include/jscntxt.h" />
+		<Unit filename="../jsapi/include/jscompat.h" />
+		<Unit filename="../jsapi/include/jsconfig.h" />
+		<Unit filename="../jsapi/include/jscpucfg.h" />
+		<Unit filename="../jsapi/include/jsdate.h" />
+		<Unit filename="../jsapi/include/jsdbgapi.h" />
+		<Unit filename="../jsapi/include/jsdhash.h" />
+		<Unit filename="../jsapi/include/jsdtoa.h" />
+		<Unit filename="../jsapi/include/jsdtracef.h" />
+		<Unit filename="../jsapi/include/jsemit.h" />
+		<Unit filename="../jsapi/include/jsexn.h" />
+		<Unit filename="../jsapi/include/jsfile.h" />
+		<Unit filename="../jsapi/include/jsfun.h" />
+		<Unit filename="../jsapi/include/jsgc.h" />
+		<Unit filename="../jsapi/include/jshash.h" />
+		<Unit filename="../jsapi/include/jsinterp.h" />
+		<Unit filename="../jsapi/include/jsiter.h" />
+		<Unit filename="../jsapi/include/jslibmath.h" />
+		<Unit filename="../jsapi/include/jslock.h" />
+		<Unit filename="../jsapi/include/jslong.h" />
+		<Unit filename="../jsapi/include/jsmath.h" />
+		<Unit filename="../jsapi/include/jsnum.h" />
+		<Unit filename="../jsapi/include/jsobj.h" />
+		<Unit filename="../jsapi/include/jsopcode.h" />
+		<Unit filename="../jsapi/include/jsotypes.h" />
+		<Unit filename="../jsapi/include/jsparse.h" />
+		<Unit filename="../jsapi/include/jsprf.h" />
+		<Unit filename="../jsapi/include/jsprvtd.h" />
+		<Unit filename="../jsapi/include/jspubtd.h" />
+		<Unit filename="../jsapi/include/jsregexp.h" />
+		<Unit filename="../jsapi/include/jsscan.h" />
+		<Unit filename="../jsapi/include/jsscope.h" />
+		<Unit filename="../jsapi/include/jsscript.h" />
+		<Unit filename="../jsapi/include/jsstddef.h" />
+		<Unit filename="../jsapi/include/jsstr.h" />
+		<Unit filename="../jsapi/include/jstypes.h" />
+		<Unit filename="../jsapi/include/jsutil.h" />
+		<Unit filename="../jsapi/include/jsxdrapi.h" />
+		<Unit filename="../jsapi/include/jsxml.h" />
+		<Unit filename="../jsapi/include/prmjtime.h" />
+		<Unit filename="../jsapi/include/resource.h" />
+		<Unit filename="Printer.cpp" />
+		<Unit filename="Printer.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="shell.cpp" />
+		<Unit filename="shell.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

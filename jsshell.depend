@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1579656832 source:/home/test/code/jsapi/jsshell/main.cpp
+	<iostream>
+	<string.h>
+	"../jsapi/include/jsapi.h"
+	"../jsapi/include/jstypes.h"
+	"../jsapi/include/jsstddef.h"
+	"../jsapi/include/jsatom.h"
+	"shell.h"
+	"Printer.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsapi.h
+	<stddef.h>
+	<stdio.h>
+	"jspubtd.h"
+	"jsutil.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jspubtd.h
+	"jstypes.h"
+	"jscompat.h"
+	"jsproto.tbl"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jstypes.h
+	<stddef.h>
+	"jscpucfg.h"
+	"jsautocfg.h"
+	"jsotypes.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jscpucfg.h
+
+1579240835 /home/test/code/jsapi/jsapi/include/jsautocfg.h
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsotypes.h
+	<SupportDefs.h>
+	<sys/types.h>
+	<sys/inttypes.h>
+	<model.h>
+
+1579232562 /home/test/code/jsapi/jsapi/include/jscompat.h
+	"jstypes.h"
+	"jslong.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jslong.h
+	"jstypes.h"
+
+1579240865 /home/test/code/jsapi/jsapi/include/jsproto.tbl
+	"jsconfig.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsconfig.h
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsutil.h
+	<stdio.h>
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsstddef.h
+	<stddef.h>
+
+1579503026 source:/home/test/code/jsapi/jsshell/Printer.cpp
+	"Printer.h"
+
+1579503026 /home/test/code/jsapi/jsshell/Printer.h
+	<stdio.h>
+	<stdlib.h>
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsatom.h
+	<stddef.h>
+	"jsconfig.h"
+	"jstypes.h"
+	"jshash.h"
+	"jsdhash.h"
+	"jsapi.h"
+	"jsprvtd.h"
+	"jspubtd.h"
+	"jslock.h"
+	"jsproto.tbl"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jshash.h
+	<stddef.h>
+	<stdio.h>
+	"jstypes.h"
+	"jscompat.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsdhash.h
+	"jstypes.h"
+	<stdio.h>
+
+1579232562 /home/test/code/jsapi/jsapi/include/jsprvtd.h
+	"jspubtd.h"
+
+1579232562 /home/test/code/jsapi/jsapi/include/jslock.h
+	"jstypes.h"
+	"pratom.h"
+	"prlock.h"
+	"prcvar.h"
+	"prthread.h"
+	"jsprvtd.h"
+	"jspubtd.h"
+
+1579657132 /home/test/code/jsapi/jsshell/shell.h
+	"../jsapi/include/jsapi.h"
+	"../jsapi/include/jstypes.h"
+	"Printer.h"
+	<list>
+	<string>
+
+1579657154 source:/home/test/code/jsapi/jsshell/shell.cpp
+	"shell.h"
+
